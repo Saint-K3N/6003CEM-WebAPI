@@ -90,8 +90,15 @@ app.use(limiter);
 // CORS configuration
 app.use(cors({
     origin: process.env.NODE_ENV === 'production' 
-        ? ['https://your-frontend-domain.com'] 
-        : ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:5000', 'http://localhost:5173'],
+        ? [
+            'https://six003cem-webapi.onrender.com',
+            'https://six003cem-webapi.onrender.com/',
+          ] 
+        : [
+            'http://localhost:10000', 
+            'http://localhost:5000', 
+            'http://localhost:5173'
+          ],
     credentials: true
 }));
 
