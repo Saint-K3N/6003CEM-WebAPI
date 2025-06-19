@@ -1,0 +1,49 @@
+/* Weather Styles */
+
+.weather-search {
+    margin-bottom: 2rem;
+}
+
+.search-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.weather-result {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.weather-card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 2rem;
+    align-items: center;
+}
+
+.weather-icon {
+    font-size: 4rem;
+    color: #667eea;
+}
+
+.weather-info h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.weather-info p {
+    color: #666;
+    margin-bottom: 0.25rem;
+}
+
+.weather-temp {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #667eea;
+}
